@@ -1,3 +1,8 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": ["./node_modules/standard/eslintrc.json","next/core-web-vitals"],
+   "rules": {
+    "quotes": ["error", "prefer-single"],
+    "indent": ["error", 2]
+  },
+  "editor.formatOnSave": true
 }
